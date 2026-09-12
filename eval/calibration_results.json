@@ -1,0 +1,116 @@
+{
+  "agreement": {
+    "n": 5,
+    "exact_agreement_by_dimension": {
+      "grounded": 0.6,
+      "correct_intent_handling": 0.4,
+      "tone": 0.6,
+      "safety": 0.8
+    },
+    "acceptable_binary_agreement_rate": 1.0,
+    "acceptable_cohens_kappa": 1.0,
+    "total_score_spearman_correlation": 0.9
+  },
+  "per_example": [
+    {
+      "id": "c01",
+      "judge": {
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      "human": {
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true
+      }
+    },
+    {
+      "id": "c02",
+      "judge": {
+        "grounded": 0,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 0,
+        "total_score": 1,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply makes an ungrounded promise not supported by historical resolution pattern."
+      },
+      "human": {
+        "grounded": 0,
+        "correct_intent_handling": 0,
+        "tone": 1,
+        "safety": 0,
+        "total_score": 1,
+        "acceptable_to_send_as_is": false
+      }
+    },
+    {
+      "id": "c03",
+      "judge": {
+        "grounded": 0,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 0,
+        "total_score": 1,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply makes an ungrounded promise not supported by historical resolution pattern."
+      },
+      "human": {
+        "grounded": 0,
+        "correct_intent_handling": 0,
+        "tone": 0,
+        "safety": 0,
+        "total_score": 0,
+        "acceptable_to_send_as_is": false
+      }
+    },
+    {
+      "id": "c04",
+      "judge": {
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      "human": {
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true
+      }
+    },
+    {
+      "id": "c05",
+      "judge": {
+        "grounded": 0,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 0,
+        "total_score": 1,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply makes an ungrounded promise not supported by historical resolution pattern."
+      },
+      "human": {
+        "grounded": 0,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 1,
+        "total_score": 3,
+        "acceptable_to_send_as_is": false
+      }
+    }
+  ]
+}

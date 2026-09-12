@@ -1,0 +1,13 @@
+{
+  "trivial": {
+    "n": 188,
+    "intent_accuracy": 0.11702127659574468,
+    "auto_handle_accuracy": 0.5585106382978723,
+    "majority_intent_used": "device_wont_boot"
+  },
+  "simple_keyword": {
+    "n": 188,
+    "intent_accuracy": 0.8882978723404256,
+    "auto_handle_accuracy": 0.9627659574468085
+  }
+}

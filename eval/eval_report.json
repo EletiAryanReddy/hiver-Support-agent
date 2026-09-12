@@ -1,0 +1,1991 @@
+{
+  "mode": "mock",
+  "classification_and_escalation": {
+    "n": 188,
+    "intent_accuracy_strict": 0.6968085106382979,
+    "intent_accuracy_excluding_ambiguous": 0.7010869565217391,
+    "escalation_decision_accuracy": 0.8936170212765957,
+    "per_intent_recall": {
+      "account_access": 0.8095238095238095,
+      "positive_feedback": 0.8571428571428571,
+      "device_wont_boot": 0.6363636363636364,
+      "warranty_repair": 0.6190476190476191,
+      "how_to_question": 0.36363636363636365,
+      "billing_refund": 0.75,
+      "order_shipping_status": 0.8,
+      "software_update_problem": 0.6666666666666666,
+      "battery_performance": 0.8
+    },
+    "confusion_matrix": {
+      "account_access": {
+        "how_to_question": 2,
+        "account_access": 17,
+        "warranty_repair": 1,
+        "device_wont_boot": 1
+      },
+      "positive_feedback": {
+        "positive_feedback": 18,
+        "battery_performance": 2,
+        "account_access": 1
+      },
+      "device_wont_boot": {
+        "device_wont_boot": 14,
+        "warranty_repair": 1,
+        "how_to_question": 2,
+        "billing_refund": 1,
+        "account_access": 1,
+        "software_update_problem": 2,
+        "positive_feedback": 1
+      },
+      "warranty_repair": {
+        "battery_performance": 4,
+        "warranty_repair": 13,
+        "how_to_question": 1,
+        "software_update_problem": 1,
+        "account_access": 1,
+        "device_wont_boot": 1
+      },
+      "how_to_question": {
+        "order_shipping_status": 1,
+        "how_to_question": 8,
+        "battery_performance": 10,
+        "software_update_problem": 2,
+        "positive_feedback": 1
+      },
+      "billing_refund": {
+        "billing_refund": 15,
+        "account_access": 1,
+        "battery_performance": 1,
+        "order_shipping_status": 1,
+        "device_wont_boot": 2
+      },
+      "order_shipping_status": {
+        "order_shipping_status": 16,
+        "software_update_problem": 1,
+        "how_to_question": 1,
+        "warranty_repair": 1,
+        "billing_refund": 1
+      },
+      "software_update_problem": {
+        "software_update_problem": 14,
+        "billing_refund": 2,
+        "device_wont_boot": 3,
+        "order_shipping_status": 1,
+        "battery_performance": 1
+      },
+      "battery_performance": {
+        "battery_performance": 16,
+        "positive_feedback": 1,
+        "how_to_question": 1,
+        "software_update_problem": 1,
+        "device_wont_boot": 1
+      }
+    }
+  },
+  "reply_quality": {
+    "n": 188,
+    "avg_total_score_out_of_8": 7.117021276595745,
+    "pct_acceptable_to_send_as_is": 0.9680851063829787,
+    "avg_score_by_dimension": {
+      "grounded": 1.7765957446808511,
+      "correct_intent_handling": 1.6861702127659575,
+      "tone": 1.6542553191489362,
+      "safety": 2.0
+    },
+    "raw_judge_results": [
+      {
+        "id": "g0001",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0002",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0003",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0004",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0005",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0006",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0007",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0008",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0009",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0010",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0011",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0012",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0013",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0014",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0015",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0016",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0017",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0018",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0019",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0020",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0021",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0022",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0023",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0024",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0025",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0026",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0027",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0028",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0029",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0030",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0031",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0032",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0033",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0034",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0035",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0036",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0037",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0038",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0039",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0040",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0041",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0042",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0043",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0044",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0045",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0046",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0047",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0048",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0049",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0050",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0051",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0052",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0053",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0054",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0055",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0056",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0057",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0058",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0059",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0060",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0061",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0062",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0063",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0064",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0065",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0066",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0067",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0068",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0069",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0070",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0071",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0072",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0073",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0074",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0075",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0076",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0077",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0078",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0079",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0080",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0081",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0082",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0083",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0084",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0085",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0086",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0087",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0088",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0089",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0090",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0091",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0092",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0093",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0094",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0095",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0096",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0097",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0098",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0099",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0100",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0101",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0102",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0103",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0104",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0105",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0106",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0107",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0108",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0109",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0110",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0111",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0112",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0113",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0114",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0115",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0116",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0117",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0118",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0119",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0120",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0121",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0122",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0123",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0124",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0125",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0126",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0127",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0128",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0129",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0130",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0131",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0132",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0133",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0134",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0135",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0136",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0137",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0138",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0139",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0140",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0141",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0142",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0143",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0144",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0145",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0146",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0147",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0148",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0149",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0150",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0151",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0152",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0153",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0154",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0155",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0156",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0157",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0158",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0159",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0160",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0161",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0162",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0163",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0164",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0165",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0166",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0167",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0168",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0169",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0170",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0171",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0172",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0173",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0174",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0175",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0176",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0177",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0178",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0179",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0180",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0181",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0182",
+        "grounded": 1,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 6,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0183",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0184",
+        "grounded": 2,
+        "correct_intent_handling": 1,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0185",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0186",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 7,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0187",
+        "grounded": 2,
+        "correct_intent_handling": 2,
+        "tone": 2,
+        "safety": 2,
+        "total_score": 8,
+        "acceptable_to_send_as_is": true,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      },
+      {
+        "id": "g0188",
+        "grounded": 1,
+        "correct_intent_handling": 1,
+        "tone": 1,
+        "safety": 2,
+        "total_score": 5,
+        "acceptable_to_send_as_is": false,
+        "rationale": "Reply follows the general pattern of historical resolutions with appropriate tone."
+      }
+    ]
+  },
+  "baselines": {
+    "trivial": {
+      "n": 188,
+      "intent_accuracy": 0.11702127659574468,
+      "auto_handle_accuracy": 0.5585106382978723,
+      "majority_intent_used": "device_wont_boot"
+    },
+    "simple_keyword": {
+      "n": 188,
+      "intent_accuracy": 0.8882978723404256,
+      "auto_handle_accuracy": 0.9627659574468085
+    }
+  }
+}
